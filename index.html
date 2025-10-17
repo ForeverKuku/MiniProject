@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faith Makulah Swen | UI/UX Designer & Mobile Developer</title>
+    <title>Faith Makulah Swen | Award-Winning UI/UX Designer & Mobile Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
-    <!-- Header/Navigation -->
-    <header>
+    <header id="header">
         <div class="container">
-            <a href="#" class="logo">DevByFaith</a>
+            <a href="#" class="logo">FaithMakulahSwen</a>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#ai">AIAssistant</a></li>
-                    <li><a href="#documents">My CV</a></li>
-                    <li><a href="#journal">Journal</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="menu-toggle">
@@ -34,36 +32,39 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Hi, I'm <span>Faith Makulah Swen</span></h1>
-                <h2>UI/UX Designer & Mobile Developer</h2>
-                <p>I create beautiful, intuitive digital experiences that solve real problems and delight users. With expertise in both design and development, I bridge the gap between vision and implementation.</p>
+                <h1>Transform Your Vision Into <span>Extraordinary Digital Experiences</span></h1>
+                <h2> UI/UX Designer & Mobile Developer</h2>
+                <p>I don't just design interfaces – I craft immersive digital journeys that captivate users and drive business results. With a unique fusion of artistic vision and technical expertise, I transform complex problems into elegant solutions.</p>
+
                 <div class="hero-buttons">
-                    <a href="#portfolio" class="btn">View My Work</a>
-                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="#portfolio" class="btn">Explore My Work</a>
+                    <a href="#contact" class="btn btn-outline">Start Your Project</a>
                 </div>
             </div>
-          <div class="image-card">
-    <div class="hero-image">
-        <img src="img/Makulah.jpg" alt="Faith Makulah Swen">
-    </div>
-</div>
+            <div class="image-card">
+                <div class="hero-image">
+                    <!-- Replace with your actual image path -->
+                    <img src="./img/Makulah.jpg" alt="Faith Makulah Swen">
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title">The Visionary Behind The Pixels</h2>
             <div class="about-content">
                 <div class="about-image">
-                    <img src="img/makuku.jpg" alt="About Faith Makulah">
+                    <!-- Replace with your actual image path -->
+                    <img src="./img/makuku.jpg" alt="About Faith Makulah">
                 </div>
                 <div class="about-text">
-                    <h3>Who am I?</h3>
-                    <p>I'm a passionate UI/UX designer and mobile developer with a unique blend of creative and technical skills. I specialize in creating user-centered designs and implementing them as functional, beautiful applications.</p>
-                    <p>With expertise in both design tools like Figma and development frameworks like React Native and Flutter, I can take a project from concept to completion while ensuring the final product stays true to the original vision.</p>
-                    <p>My approach combines empathy for users with technical excellence, resulting in digital products that are both delightful to use and robust in implementation.</p>
-                    <a href="#https://docs.google.com/document/d/1S2bs6cI4OhdEQRH8BZPvRSIlie7R8oiGxcO_dg-lg5E/?tab=t.0" class="btn">Download CV</a>
+                    <h3>Where Art Meets Algorithm</h3>
+                    <p>I'm not your average designer-developer hybrid. I'm a digital architect who bridges the gap between beautiful aesthetics and flawless functionality. With expertise spanning from pixel-perfect UI design to robust mobile applications, I create digital products that don't just look good – they perform exceptionally.</p>
+                    <p>My approach combines deep user empathy with cutting-edge technical execution. I don't follow trends – I set them. Every project is an opportunity to push boundaries, challenge conventions, and deliver solutions that exceed expectations.</p>
+                    <p>Whether it's a sleek mobile app, an intuitive web platform, or compelling brand visuals, I bring the same level of passion, precision, and innovation to every project. Your vision deserves nothing less than extraordinary execution.</p>
+                    <a href="#contact" class="btn">Let's Create Magic Together</a>
                 </div>
             </div>
         </div>
@@ -72,115 +73,94 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">My Services</h2>
+            <h2 class="section-title">Crafting Digital Excellence</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h3>Mobile Development</h3>
-                    <p>Cross-platform apps for iOS/Android using React Native and Flutter with native performance.</p>
+                    <p>Native-performance cross-platform apps using React Native and Flutter. Seamless user experiences optimized for every device and platform.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-laptop-code"></i>
                     </div>
                     <h3>Frontend Development</h3>
-                    <p>Responsive web applications using React, HTML5/CSS3 with modern frameworks.</p>
+                    <p>Responsive, performant web applications built with modern frameworks. Clean code that brings designs to life with precision.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-paint-brush"></i>
                     </div>
                     <h3>UI/UX Design</h3>
-                    <p>User-centered interfaces with Figma, Adobe XD, and prototyping tools.</p>
+                    <p>User-centered interfaces that blend beauty with functionality. Intuitive experiences that users love and remember.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-pencil-alt"></i>
                     </div>
-                    <h3>Graphic Design</h3>
-                    <p>Brand identity, illustrations, and visual assets that communicate your message.</p>
+                    <h3>Brand Identity</h3>
+                    <p>Compelling visual identities that tell your story and connect with your audience. Designs that make lasting impressions.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio-nav-section">
         <div class="container">
-            <h2 class="section-title">My Portfolio</h2>
-            <div class="portfolio-filter">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="react">React Native</button>
-                <button class="filter-btn" data-filter="flutter">Flutter</button>
-                <button class="filter-btn" data-filter="design">UI Design</button>
-                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            <h2 class="section-title">Portfolio of Innovation</h2>
+            <div class="portfolio-nav">
+                <button class="portfolio-nav-btn active" data-target="uiux-portfolio">UI/UX Design</button>
+                <button class="portfolio-nav-btn" data-target="mobile-portfolio">Mobile Development</button>
+                <button class="portfolio-nav-btn" data-target="graphic-portfolio">Visual Design</button>
             </div>
+        </div>
+    </section>
+
+    <!-- UI/UX Portfolio Section -->
+    <section id="uiux-portfolio" class="portfolio-section uiux-portfolio active">
+        <div class="container">
+            <h2 class="section-title">UI/UX Masterpieces</h2>
             <div class="portfolio-grid">
-                <!-- Project 1 -->
-                <div class="portfolio-item" data-category="react">
+                <div class="portfolio-item" data-project="coffee-shop">
                     <div class="portfolio-image">
-                        <img src="img/dementia.JPG" alt="Dementia Care Rwanda App">
+                        <img src="./img/Coffeeshop.png" alt="Coffee Shop Website UI">
                         <div class="portfolio-overlay">
-                            <h3>Dementia Care Rwanda App</h3>
-                            <p>React Native • Health & Safety</p>
-                            <a href="https://github.com/ForeverKuku/Dementia_Project" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            <h3>Brew & Sip Experience</h3>
+                            <p>Figma • E-commerce • UI/UX • Web Design</p>
+                            <a href="#" class="portfolio-link view-process" data-project="coffee-shop"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
-                <!-- Project 2 -->
-                <div class="portfolio-item" data-category="flutter">
+                <div class="portfolio-item" data-project="finance-app">
                     <div class="portfolio-image">
-                        <img src="img/app2.JPG" alt="Remote Bus Tracking App">
+                        <img src="./img/MyTrove Finance Mockup.png" alt="Finance App UI">
                         <div class="portfolio-overlay">
-                            <h3>Remote Bus Tracking App</h3>
-                            <p>Flutter • Transportation</p>
-                            <a href="https://github.com/ForeverKuku/transit_tracker_new" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            <h3>MyTrove Finance</h3>
+                            <p>Figma • Fintech • Mobile UI/UX</p>
+                            <a href="#" class="portfolio-link view-process" data-project="finance-app"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
-                <!-- Project 3 -->
-                <div class="portfolio-item" data-category="design">
+                <div class="portfolio-item" data-project="crypto-app">
                     <div class="portfolio-image">
-                        <img src="img/nativedesk.JPG" alt="Medical Professional Job Seeking Platform UI">
+                        <img src="./img/Crypto Mock up.png" alt="Crypto App UI">
                         <div class="portfolio-overlay">
-                            <h3>Medical Job Platform UI</h3>
-                            <p>Figma • Health sector</p>
-                            <a href="https://www.nativedesk.io/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            <h3>Crypto Wealth Platform</h3>
+                            <p>Figma • Cryptocurrency • Dashboard Design</p>
+                            <a href="#" class="portfolio-link view-process" data-project="crypto-app"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
-                <!-- Project 4 -->
-                <div class="portfolio-item" data-category="design">
+                <div class="portfolio-item" data-project="ecommerce-app">
                     <div class="portfolio-image">
-                        <img src="img/landingpage.jpg" alt="GreenHive Web-based  UI">
+                        <img src="./img/E-commence mobile MockUp (2).png" alt="E-commerce App UI">
                         <div class="portfolio-overlay">
-                            <h3>Grocery List App UI</h3>
-                            <p>Figma • Agriculture sector</p>
-                            <a href="https://www.figma.com/design/wK1kLp95CN7dZMLYyS5Q5a/Landing-Page?node-id=556-2840&t=M3wXyD8Kbvu7xtKD-0" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project 5 -->
-                <div class="portfolio-item" data-category="graphic">
-                    <div class="portfolio-image">
-                        <img src="https://placehold.co/400x300/6C63FF/FFFFFF?text=Brand+Identity" alt="Brand Identity Design">
-                        <div class="portfolio-overlay">
-                            <h3>Brand Identity Package</h3>
-                            <p>Logo, Brand Guidelines • Business</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project 6 -->
-                <div class="portfolio-item" data-category="graphic">
-                    <div class="portfolio-image">
-                        <img src="https://placehold.co/400x300/6C63FF/FFFFFF?text=Marketing+Materials" alt="Marketing Materials">
-                        <div class="portfolio-overlay">
-                            <h3>Marketing Collateral</h3>
-                            <p>Brochures, Social Media • Campaign</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            <h3>E-commerce App</h3>
+                            <p>Figma • E-commerce • Mobile UI/UX</p>
+                            <a href="#" class="portfolio-link view-process" data-project="ecommerce-app"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
@@ -188,179 +168,141 @@
         </div>
     </section>
 
-    <!-- AI Assistant Section -->
-    <section id="ai" class="ai-assistant">
+    <!-- Mobile Development Portfolio Section -->
+    <section id="mobile-portfolio" class="portfolio-section mobile-portfolio">
         <div class="container">
-            <h2 class="section-title" style="color: white;">AI Design Assistant</h2>
-            <div class="ai-container">
-                <div class="ai-demo">
-                    <h3>Ask me about design!</h3>
-                    <div class="ai-chat" id="chat-container">
-                        <div class="chat-message bot">
-                            Hi there! I'm Faith's AI design assistant. Ask me anything about UI/UX design or her work!
+            <h2 class="section-title">Mobile Innovation</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-project="dementia-care">
+                    <div class="portfolio-image">
+                        <img src="./img/dementia.JPG" alt="Dementia Care Rwanda App">
+                        <div class="portfolio-overlay">
+                            <h3>Dementia Care Rwanda</h3>
+                            <p>React Native • Healthcare • Safety Monitoring</p>
+                            <a href="#" class="portfolio-link view-process" data-project="dementia-care"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="ai-input">
-                        <input type="text" id="user-input" placeholder="Type your question here...">
-                        <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+                <div class="portfolio-item" data-project="bus-tracker">
+                    <div class="portfolio-image">
+                        <img src="./img/finalmovie.JPG" alt="Remote Bus Tracking App">
+                        <div class="portfolio-overlay">
+                            <h3>Smart Bus Tracker</h3>
+                            <p>Flutter • Transportation • Real-time Tracking</p>
+                            <a href="#" class="portfolio-link view-process" data-project="bus-tracker"><i class="fas fa-eye"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="ai-info">
-                    <h2>Interactive Design Assistant</h2>
-                    <p>This custom AI feature demonstrates my technical skills while providing visitors with an engaging way to learn about my design process and expertise.</p>
-                    <p>The assistant can answer questions about UI/UX principles, my design philosophy, and specific projects in my portfolio.</p>
-                    <p>Built with JavaScript and integrated with a natural language processing API, this feature showcases my ability to implement innovative solutions.</p>
+                <div class="portfolio-item" data-project="fitness-tracker">
+                    <div class="portfolio-image">
+                        <img src="./img/Dassy.jpg" alt="Fitness Tracking App">
+                        <div class="portfolio-overlay">
+                            <h3>Dassy Fitness</h3>
+                            <p>React Native • Health & Wellness • Activity Tracking</p>
+                            <a href="#" class="portfolio-link view-process" data-project="fitness-tracker"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CV & Cover Letter Section -->
-    <section id="documents" class="documents">
+    <!-- Graphic Design Portfolio Section -->
+    <section id="graphic-portfolio" class="portfolio-section graphic-portfolio">
         <div class="container">
-            <h2 class="section-title">My Documents</h2>
-            <div class="documents-grid">
-                <div class="document-card">
-                    <div class="document-icon">
-                        <i class="fas fa-file-alt"></i>
+            <h2 class="section-title">Visual Storytelling</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-project="tshirt-design-1">
+                    <div class="portfolio-image">
+                        <img src="./img/child1.jpg" alt="T-Shirt Design 1">
+                        <div class="portfolio-overlay">
+                            <h3>Typography Collection</h3>
+                            <p>Adobe Illustrator • Brand Identity • Fashion</p>
+                            <a href="#" class="portfolio-link view-process" data-project="tshirt-design-1"><i class="fas fa-eye"></i></a>
+                        </div>
                     </div>
-                    <h3>Curriculum Vitae</h3>
-                    <p>Download my complete CV to learn more about my experience, education, and skills.</p>
-                    <a href="https://docs.google.com/document/d/1S2bs6cI4OhdEQRH8BZPvRSIlie7R8oiGxcO_dg-lg5E/view?tab=t.0" class="btn">Download CV</a>
                 </div>
-                <div class="document-card">
-                    <div class="document-icon">
-                        <i class="fas fa-file-signature"></i>
+                 <div class="portfolio-item" data-project="tshirt-design-1">
+                    <div class="portfolio-image">
+                        <img src="./img/child2.jpg" alt="T-Shirt Design 1">
+                        <div class="portfolio-overlay">
+                            <h3>Typography Collection</h3>
+                            <p>Adobe Illustrator • Brand Identity • Fashion</p>
+                            <a href="#" class="portfolio-link view-process" data-project="tshirt-design-1"><i class="fas fa-eye"></i></a>
+                        </div>
                     </div>
-                    <h3>Cover Letter</h3>
-                    <p>Review my cover letter to understand how I can contribute to your organization.</p>
-                    <a href="#https://docs.google.com/document/d/1rgfrVCUFcPPaVYz7eEGxG4K9gRV0bhas0lVGMPGVRGA/view?tab=t.0" class="btn">Download Cover Letter</a>
                 </div>
-                <div class="document-card">
-                    <div class="document-icon">
-                        <i class="fas fa-certificate"></i>
+                 <div class="portfolio-item" data-project="tshirt-design-1">
+                    <div class="portfolio-image">
+                        <img src="./img/chill1.jpg" alt="T-Shirt Design 1">
+                        <div class="portfolio-overlay">
+                            <h3>Typography Collection</h3>
+                            <p>Adobe Illustrator • Brand Identity • Fashion</p>
+                            <a href="#" class="portfolio-link view-process" data-project="tshirt-design-1"><i class="fas fa-eye"></i></a>
+                        </div>
                     </div>
-                    <h3>Certifications</h3>
-                    <p>View my professional certifications and qualifications in design and development.</p>
-                    <a href="https://docs.google.com/document/d/1rgfrVCUFcPPaVYz7eEGxG4K9gRV0bhas0lVGMPGVRGA/view?tab=t.0" class="btn">View Certifications</a>
+                </div>
+                 <div class="portfolio-item" data-project="tshirt-design-1">
+                    <div class="portfolio-image">
+                        <img src="./img/chill2.jpg" alt="T-Shirt Design 1">
+                        <div class="portfolio-overlay">
+                            <h3>Typography Collection</h3>
+                            <p>Adobe Illustrator • Brand Identity • Fashion</p>
+                            <a href="#" class="portfolio-link view-process" data-project="tshirt-design-1"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="back-to-school">
+                    <div class="portfolio-image">
+                        <img src="./img/Back-To-School-Banner copy.png" alt="Back to School Flyer">
+                        <div class="portfolio-overlay">
+                            <h3>Education Campaign</h3>
+                            <p>Adobe Illustrator • Marketing • Print Design</p>
+                            <a href="#" class="portfolio-link view-process" data-project="back-to-school"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="portfolio-item" data-project="back-to-school">
+                    <div class="portfolio-image">
+                        <img src="./img/God is king.jpg" alt="Back to School Flyer">
+                        <div class="portfolio-overlay">
+                            <h3>Education Campaign</h3>
+                            <p>Adobe Illustrator • Marketing • Print Design</p>
+                            <a href="#" class="portfolio-link view-process" data-project="back-to-school"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="food-flyer">
+                    <div class="portfolio-image">
+                        <img src="./img/FastFood Poster copy.png" alt="Food Promotional Flyer">
+                        <div class="portfolio-overlay">
+                            <h3>Food Branding</h3>
+                            <p>Adobe Illustrator • Restaurant • Promotional</p>
+                            <a href="#" class="portfolio-link view-process" data-project="food-flyer"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="food-flyer">
+                    <div class="portfolio-image">
+                        <img src="./img/Burger poster.png" alt="Food Promotional Flyer">
+                        <div class="portfolio-overlay">
+                            <h3>Food Branding</h3>
+                            <p>Adobe Illustrator • Restaurant • Promotional</p>
+                            <a href="#" class="portfolio-link view-process" data-project="food-flyer"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Video Introduction Section -->
-    <section id="video" class="video-intro">
-    <div class="container">
-        <h2 class="section-title">Video Introduction</h2>
-        <div class="video-container">
-            <iframe
-                src="https://www.youtube.com/embed/9vkUGGV2Quw?autoplay=1&mute=1"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
-        </div>
-        <p style="margin-top: 30px; text-align: center; color: var(--gray); max-width: 700px; margin-left: auto; margin-right: auto;">
-            In this short video, I introduce myself and share my passion for creating meaningful digital experiences that solve real problems for users.
-        </p>
-    </div>
-</section>
-
-    <!-- Reflection Journal Section -->
-    <section id="journal" class="journal">
+    <!-- Call to Action Section -->
+    <section class="cta">
         <div class="container">
-            <h2 class="section-title">Reflection Journal</h2>
-            <div class="journal-container">
-                <div class="journal-entries">
-                    <h3>Latest Entries</h3>
-                    <div class="journal-entry">
-                        <h3>The Future of UI Design in Mobile Applications</h3>
-                        <div class="journal-date">October 15, 2023</div>
-                        <div class="journal-content">
-                            <p>Today I've been reflecting on how mobile UI design is evolving beyond the flat design trends that have dominated the past decade. With advancements in AR and VR, we're seeing more immersive interfaces that blend digital and physical spaces...</p>
-                            <a href="#">Read more</a>
-                        </div>
-                    </div>
-                    <div class="journal-entry">
-                        <h3>Designing for Accessibility First</h3>
-                        <div class="journal-date">October 8, 2023</div>
-                        <div class="journal-content">
-                            <p>This week I worked on a project that emphasized accessibility from the very beginning rather than as an afterthought. The experience transformed how I think about inclusive design...</p>
-                            <a href="#">Read more</a>
-                        </div>
-                    </div>
-                    <div class="journal-entry">
-                        <h3>Balancing Aesthetics and Functionality</h3>
-                        <div class="journal-date">October 1, 2023</div>
-                        <div class="journal-content">
-                            <p>There's always a tension between creating beautiful interfaces and ensuring they remain functional and intuitive. Today I explored how the best designs achieve both through careful attention to user needs...</p>
-                            <a href="#">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="journal-form">
-                    <h3>Add New Entry</h3>
-                    <form id="journal-form">
-                        <div class="form-group">
-                            <label for="entry-title">Title</label>
-                            <input type="text" id="entry-title" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="entry-content">Content</label>
-                            <textarea id="entry-content" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Save Entry</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">Client Testimonials</h2>
-            <div class="testimonials-slider">
-                <div class="testimonial active">
-                    <div class="testimonial-content">
-                        <p>"The frontend screens developed for our French mobile app were pixel-perfect. Delivered 2 weeks ahead of schedule with excellent communication."</p>
-                        <div class="testimonial-author">
-                            <img src="https://placehold.co/60x60/6C63FF/FFFFFF?text=P" alt="Client 1">
-                            <div>
-                                <h4>Patrick Glody</h4>
-                                <span>CTO, Dassy App</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="testimonial-content">
-                        <p>"The UI design created for our startup transformed our app's usability. The modern interface reduced user onboarding time by 35% and increased retention."</p>
-                        <div class="testimonial-author">
-                            <img src="https://placehold.co/60x60/6C63FF/FFFFFF?text=C" alt="Client 2">
-                            <div>
-                                <h4>Chernoh Jagitay</h4>
-                                <span>Founder, NativeDesk Startup Sierra Leone</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="testimonial-content">
-                        <p>"The Excel analysis provided clear insights into our church activities, helping us optimize attendance for each month and a year."</p>
-                        <div class="testimonial-author">
-                            <img src="https://placehold.co/60x60/6C63FF/FFFFFF?text=P" alt="Client 3">
-                            <div>
-                                <h4>Pastor Philemon Tarpeh</h4>
-                                <span>Remedy Movement International, Liberia</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-controls">
-                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
-                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
-                </div>
+            <div class="cta-content">
+                <h2>Ready to Elevate Your Digital Presence?</h2>
+                <p>Let's collaborate to create something extraordinary that captures attention, engages users, and drives results. Your vision combined with my expertise – the perfect formula for digital success.</p>
+                <a href="#contact" class="btn">Start Your Project Today</a>
             </div>
         </div>
     </section>
@@ -368,84 +310,310 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h2 class="section-title">Let's Create Together</h2>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Let's talk about your project</h3>
-                    <p>I'm available for freelance work and would love to discuss your mobile app or design needs. Feel free to reach out through any of these channels:</p>
+                    <h3>Your Vision, My Execution</h3>
+                    <p>I'm currently available for select projects that challenge conventions and push creative boundaries. Let's discuss how we can bring your ideas to life with innovative design and development solutions.</p>
+                    
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
-                            <span>swenfaithm@gmail.com</span>
+                            <div class="contact-item-content">
+                                <h4>Email</h4>
+                                <p>swenfaithm@gmail.com</p>
+                            </div>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
-                            <span>+250 785603898</span>
+                            <div class="contact-item-content">
+                                <h4>Phone</h4>
+                                <p>+250 785603898</p>
+                            </div>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Kigali city, Rwanda</span>
+                            <div class="contact-item-content">
+                                <h4>Location</h4>
+                                <p>Kigali, Rwanda</p>
+                            </div>
                         </div>
                     </div>
+
                     <div class="social-links">
-                        <a href="https://github.com/ForeverKuku"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/faith-makulah-swen-239411217/"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-behance"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/ForeverKuku" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/faith-makulah-swen-239411217/" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" title="Behance">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                        <a href="#" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </div>
                 </div>
+                
                 <form class="contact-form" id="contact-form">
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Subject">
+                        <label for="subject">Project Type</label>
+                        <input type="text" id="subject" name="subject" placeholder="e.g., Mobile App, Website Design, etc.">
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Your Message" required></textarea>
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project vision, goals, and timeline..." required></textarea>
                     </div>
-                    <button type="submit" class="btn">Send Message</button>
+                    
+                    <!-- Form Status Messages -->
+                    <div class="form-loading" id="form-loading">
+                        <div class="loading-spinner"></div>
+                        <p>Sending your message...</p>
+                    </div>
+                    
+                    <div class="form-success" id="form-success">
+                        <i class="fas fa-check-circle" style="font-size: 2rem; margin-bottom: 10px;"></i>
+                        <h4>Message Sent Successfully!</h4>
+                        <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                    </div>
+                    
+                    <div class="form-error" id="form-error">
+                        <i class="fas fa-exclamation-triangle" style="font-size: 2rem; margin-bottom: 10px;"></i>
+                        <h4>Oops! Something went wrong.</h4>
+                        <p>Please try again or contact me directly at swenfaithm@gmail.com</p>
+                    </div>
+                    
+                    <button type="submit" class="btn" id="submit-btn">
+                        <span id="btn-text">Send Message</span>
+                    </button>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-about">
-                    <h3>Faith Makulah Swen</h3>
-                    <p>UI/UX Designer & Mobile Developer creating beautiful, functional applications and interfaces.</p>
+                    <a href="#" class="logo">FaithMakulahSwen</a>
+                    <p>Transforming visions into extraordinary digital experiences through innovative design and cutting-edge development. Let's build something amazing together.</p>
+                    
+                    <div class="footer-newsletter">
+                        <h4>Stay Updated</h4>
+                        <p>Get the latest insights on design and development</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
                 </div>
+                
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
                     </ul>
                 </div>
+                
                 <div class="footer-services">
                     <h3>Services</h3>
                     <ul>
-                        <li><a href="#">Mobile App Development</a></li>
-                        <li><a href="#">UI/UX Design</a></li>
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Mobile Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Frontend Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Brand Identity</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Product Strategy</a></li>
                     </ul>
                 </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <p>Kigali, Rwanda</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <p>swenfaithm@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p>+250 785603898</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; <span id="year"></span> DevByFaith. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/ForeverKuku" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/faith-makulah-swen-239411217/" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" title="Behance">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    <a href="#" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <p>&copy; <span id="year"></span> Faith Makulah Swen. Crafted with passion and precision.</p>
             </div>
         </div>
     </footer>
+
+    <!-- AI Secretary -->
+    <div class="ai-secretary">
+        <button class="ai-toggle pulse">
+            <i class="fas fa-robot"></i>
+        </button>
+        <div class="ai-chat">
+            <div class="ai-header">
+                <img src="./img/Makulah.jpg" alt="AI Secretary">
+                <div>
+                    <h3>Design Assistant</h3>
+                    <p>How can I help you today?</p>
+                </div>
+            </div>
+            <div class="ai-messages">
+                <div class="ai-message bot">
+                    Hello! I'm your AI design assistant. I can help you learn more about Faith's design process, portfolio, or answer questions about UI/UX design.
+                </div>
+                <div class="ai-suggestions">
+                    <div class="ai-suggestion" data-question="design process">Design Process</div>
+                    <div class="ai-suggestion" data-question="services">Services</div>
+                    <div class="ai-suggestion" data-question="portfolio">Portfolio</div>
+                    <div class="ai-suggestion" data-question="contact">Contact Info</div>
+                </div>
+            </div>
+            <div class="ai-input">
+                <input type="text" placeholder="Ask me anything...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Process Modal -->
+    <div class="process-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Project Design Process</h2>
+                <button class="close-modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="process-details">
+                    <div class="process-image">
+                        <img id="modal-image" src="" alt="Project Process">
+                    </div>
+                    <div class="process-info">
+                        <h3 id="modal-project-title">Project Title</h3>
+                        <p id="modal-project-description">Project description goes here.</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <h4>Tools & Technologies</h4>
+                                <p id="modal-tools">Figma</p>
+                            </div>
+                            <div class="meta-item">
+                                <h4>Timeline</h4>
+                                <p id="modal-timeline">4-6 weeks</p>
+                            </div>
+                            <div class="meta-item">
+                                <h4>Category</h4>
+                                <p id="modal-category">UI/UX Design</p>
+                            </div>
+                            <div class="meta-item">
+                                <h4>Client</h4>
+                                <p id="modal-client">Confidential</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Process Visualization -->
+                <div class="process-visualization">
+                    <h3>My Design Process Flow</h3>
+                    <div class="process-flow">
+                        <div class="flow-step">
+                            <div class="flow-step-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="flow-step-label">Problem Statement</div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="flow-step-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="flow-step-label">Research</div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="flow-step-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="flow-step-label">Stakeholder Interviews</div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="flow-step-icon">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            <div class="flow-step-label">User Personas</div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="flow-step-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="flow-step-label">User Flow</div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="flow-step-icon">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                            <div class="flow-step-label">Wireframes</div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="flow-step-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="flow-step-label">High-Fidelity</div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="flow-step-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="flow-step-label">Responsiveness</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-stages">
+                    <h3>Detailed Design Process</h3>
+                    <div class="stages-container" id="modal-process-stages">
+                        <!-- Process stages will be inserted here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
